@@ -5,3 +5,7 @@ p a{color: #888;}
 #controls button{
 	cursor: pointer;
 	outline: none;	
+padding: 10px 20px;
+	margin: 25px 2px;
+	border: 0;
+	border-radius: 4px;
