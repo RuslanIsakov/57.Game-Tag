@@ -21,3 +21,7 @@ text-transform: uppercase;
 	position: relative;
 	width: 325px;
 	height: 325px;
+margin: 0 auto;
+	margin-top: 80px;
+	border: 8px solid #001F1F;
+	border-radius: 4px;
