@@ -17,3 +17,7 @@ text-transform: uppercase;
 	color: #fff;
 }
 #controls button:hover{background: #003333;}
+#puzzle{
+	position: relative;
+	width: 325px;
+	height: 325px;
