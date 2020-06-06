@@ -12,3 +12,7 @@ p a{color: #888;}
 background: #001F1F;
 	font: bold 14px Arial;
 	text-align: center;
+text-transform: uppercase;
+	text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
+	color: #fff;
+}
