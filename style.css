@@ -16,3 +16,4 @@ text-transform: uppercase;
 	text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
 	color: #fff;
 }
+#controls button:hover{background: #003333;}
