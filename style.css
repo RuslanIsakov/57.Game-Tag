@@ -33,3 +33,6 @@ text-transform: uppercase;
 	height: 80px;
 	border-radius: 4px;
 }
+#puzzle span.number{
+	cursor: pointer;
+	font: bold 36px/80px Arial;
