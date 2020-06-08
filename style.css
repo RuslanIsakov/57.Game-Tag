@@ -36,3 +36,7 @@ text-transform: uppercase;
 #puzzle span.number{
 	cursor: pointer;
 	font: bold 36px/80px Arial;
+	text-align: center;
+	text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
+	color: #fff;
+}
