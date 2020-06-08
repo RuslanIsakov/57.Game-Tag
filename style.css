@@ -45,3 +45,6 @@ text-transform: uppercase;
 #puzzle span.number.dark{background: #003333;}
 
 #puzzle.animate span{
+-webkit-transition: 0.15s left, 0.15s top;
+ 	transition: 0.15s left, 0.15s top;
+}
