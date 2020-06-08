@@ -42,3 +42,6 @@ text-transform: uppercase;
 }
 #puzzle span.empty{background: transparent;}
 #puzzle span.number.light{background: #226666;}
+#puzzle span.number.dark{background: #003333;}
+
+#puzzle.animate span{
