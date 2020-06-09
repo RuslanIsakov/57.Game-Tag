@@ -11,3 +11,9 @@
 			// Enables sliding animation
 			puzzle.className = 'animate';
 			shiftCell(e.target);
+}
+	});
+	
+	// Listens for click on control buttons
+	document.getElementById('solve').addEventListener('click', solve);
+	document.getElementById('scramble').addEventListener('click', scramble);
