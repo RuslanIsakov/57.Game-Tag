@@ -31,3 +31,6 @@ if(state == 0){
 var n = 1;
 		for(var i = 0; i <= 3; i++){
 			for(var j = 0; j <= 3; j++){
+var cell = document.createElement('span');
+				cell.id = 'cell-'+i+'-'+j;
+				cell.style.left = (j*80+1*j+1)+'px';
