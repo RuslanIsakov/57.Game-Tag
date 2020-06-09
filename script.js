@@ -23,3 +23,8 @@
 	 */
 	function solve(){
 		
+if(state == 0){
+			return;
+		}
+		
+		puzzle.innerHTML = '';
