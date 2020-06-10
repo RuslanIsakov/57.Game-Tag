@@ -46,3 +46,11 @@ cell.className = 'empty';
 				
 				puzzle.appendChild(cell);
 			}
+}
+		
+	}
+
+	/**
+	 * Shifts number cell to the empty cell
+	 * 
+	 */
