@@ -54,3 +54,7 @@ cell.className = 'empty';
 	 * Shifts number cell to the empty cell
 	 * 
 	 */
+function shiftCell(cell){
+		
+		// Checks if selected cell has number
+		if(cell.clasName != 'empty'){
