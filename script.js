@@ -41,3 +41,8 @@ cell.style.top = (i*80+1*i+1)+'px';
 cell.classList.add((i%2==0 && j%2>0 || i%2>0 && j%2==0) ? 'dark' : 'light');
 					cell.innerHTML = (n++).toString();
 				} else {
+cell.className = 'empty';
+				}
+				
+				puzzle.appendChild(cell);
+			}
