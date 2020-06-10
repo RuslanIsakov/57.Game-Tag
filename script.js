@@ -58,3 +58,6 @@ function shiftCell(cell){
 		
 		// Checks if selected cell has number
 		if(cell.clasName != 'empty'){
+// Tries to get empty adjacent cell
+			var emptyCell = getEmptyAdjacentCell(cell);
+			
