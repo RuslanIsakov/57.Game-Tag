@@ -61,3 +61,5 @@ function shiftCell(cell){
 // Tries to get empty adjacent cell
 			var emptyCell = getEmptyAdjacentCell(cell);
 			
+if(emptyCell){
+				// Temporary data
