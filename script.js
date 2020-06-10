@@ -34,3 +34,7 @@ var n = 1;
 var cell = document.createElement('span');
 				cell.id = 'cell-'+i+'-'+j;
 				cell.style.left = (j*80+1*j+1)+'px';
+cell.style.top = (i*80+1*i+1)+'px';
+				
+				if(n <= 15){
+					cell.classList.add('number');
