@@ -85,3 +85,12 @@ emptyCell.id = tmp.id;
 	 *
 	 */
 	function getCell(row, col){
+return document.getElementById('cell-'+row+'-'+col);
+		
+	}
+
+	/**
+	 * Gets empty cell
+	 *
+	 */
+	function getEmptyCell(){
