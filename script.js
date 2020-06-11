@@ -69,3 +69,9 @@ var tmp = {style: cell.style.cssText, id: cell.id};
 cell.style.cssText = emptyCell.style.cssText;
 				cell.id = emptyCell.id;
 				emptyCell.style.cssText = tmp.style;
+emptyCell.id = tmp.id;
+				
+				if(state == 1){
+					// Checks the order of numbers
+					checkOrder();
+				}
