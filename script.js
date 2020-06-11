@@ -102,3 +102,8 @@ return puzzle.querySelector('.empty');
 	 * Gets empty adjacent cell if it exists
 	 *
 	 */
+function getEmptyAdjacentCell(cell){
+		
+		// Gets all adjacent cells
+		var adjacent = getAdjacentCells(cell);
+		
