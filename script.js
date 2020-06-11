@@ -94,3 +94,11 @@ return document.getElementById('cell-'+row+'-'+col);
 	 *
 	 */
 	function getEmptyCell(){
+return puzzle.querySelector('.empty');
+			
+	}
+	
+	/**
+	 * Gets empty adjacent cell if it exists
+	 *
+	 */
