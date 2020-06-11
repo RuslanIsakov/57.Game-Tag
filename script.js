@@ -63,3 +63,6 @@ function shiftCell(cell){
 			
 if(emptyCell){
 				// Temporary data
+var tmp = {style: cell.style.cssText, id: cell.id};
+				
+				// Exchanges id and style values
