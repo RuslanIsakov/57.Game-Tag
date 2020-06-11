@@ -75,3 +75,13 @@ emptyCell.id = tmp.id;
 					// Checks the order of numbers
 					checkOrder();
 				}
+}
+		}
+		
+	}
+
+	/**
+	 * Gets specific cell by row and column
+	 *
+	 */
+	function getCell(row, col){
