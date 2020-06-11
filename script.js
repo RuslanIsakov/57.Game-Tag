@@ -66,3 +66,6 @@ if(emptyCell){
 var tmp = {style: cell.style.cssText, id: cell.id};
 				
 				// Exchanges id and style values
+cell.style.cssText = emptyCell.style.cssText;
+				cell.id = emptyCell.id;
+				emptyCell.style.cssText = tmp.style;
