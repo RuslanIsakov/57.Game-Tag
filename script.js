@@ -122,3 +122,8 @@ if(adjacent[i].className == 'empty'){
 	 *
 	 */
 	function getAdjacentCells(cell){
+var id = cell.id.split('-');
+		
+		// Gets cell position indexes
+		var row = parseInt(id[1]);
+		var col = parseInt(id[2]);
