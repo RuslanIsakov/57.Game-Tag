@@ -109,3 +109,7 @@ function getEmptyAdjacentCell(cell){
 		
 // Searches for empty cell
 		for(var i = 0; i < adjacent.length; i++){
+if(adjacent[i].className == 'empty'){
+				return adjacent[i];
+			}
+		}
