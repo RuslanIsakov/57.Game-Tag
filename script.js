@@ -115,3 +115,10 @@ if(adjacent[i].className == 'empty'){
 		}
 // Empty adjacent cell was not found
 		return false;
+}
+
+	/**
+	 * Gets all adjacent cells
+	 *
+	 */
+	function getAdjacentCells(cell){
