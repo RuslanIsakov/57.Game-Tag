@@ -127,3 +127,7 @@ var id = cell.id.split('-');
 		// Gets cell position indexes
 		var row = parseInt(id[1]);
 		var col = parseInt(id[2]);
+var adjacent = [];
+		
+		// Gets all possible adjacent cells
+		if(row < 3){adjacent.push(getCell(row+1, col));}
