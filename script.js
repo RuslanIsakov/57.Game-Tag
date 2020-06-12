@@ -113,3 +113,5 @@ if(adjacent[i].className == 'empty'){
 				return adjacent[i];
 			}
 		}
+// Empty adjacent cell was not found
+		return false;
