@@ -131,3 +131,10 @@ var adjacent = [];
 		
 		// Gets all possible adjacent cells
 		if(row < 3){adjacent.push(getCell(row+1, col));}
+if(row > 0){adjacent.push(getCell(row-1, col));}
+		if(col < 3){adjacent.push(getCell(row, col+1));}
+		if(col > 0){adjacent.push(getCell(row, col-1));}
+		
+		return adjacent;
+		
+	}
