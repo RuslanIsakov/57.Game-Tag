@@ -107,3 +107,5 @@ function getEmptyAdjacentCell(cell){
 		// Gets all adjacent cells
 		var adjacent = getAdjacentCells(cell);
 		
+// Searches for empty cell
+		for(var i = 0; i < adjacent.length; i++){
