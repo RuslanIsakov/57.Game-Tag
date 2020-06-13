@@ -156,3 +156,7 @@ for(var j = 0; j <= 3; j++){
 				if(n <= 15 && getCell(i, j).innerHTML != n.toString()){
 					// Order is not correct
 					return;
+}
+				n++;
+			}
+		}
