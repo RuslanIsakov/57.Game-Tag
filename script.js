@@ -147,3 +147,8 @@ if(row > 0){adjacent.push(getCell(row-1, col));}
 		if(getCell(3, 3).className != 'empty'){
 			return;
 	
+}
+	
+		var n = 1;
+		// Goes through all cells and checks numbers
+		for(var i = 0; i <= 3; i++){
