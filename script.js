@@ -160,3 +160,9 @@ for(var j = 0; j <= 3; j++){
 				n++;
 			}
 		}
+// Puzzle is solved, offers to scramble it
+		if(confirm('Congrats, You did it! \nScramble the puzzle?')){
+			scramble();
+		}
+	
+	}
