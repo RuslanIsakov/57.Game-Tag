@@ -166,3 +166,7 @@ for(var j = 0; j <= 3; j++){
 		}
 	
 	}
+/**
+	 * Scrambles puzzle
+	 *
+	 */
