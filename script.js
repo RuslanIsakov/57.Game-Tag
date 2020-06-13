@@ -138,3 +138,8 @@ if(row > 0){adjacent.push(getCell(row-1, col));}
 		return adjacent;
 		
 	}
+/**
+	 * Chechs if the order of numbers is correct
+	 *
+	 */
+	function checkOrder(){
