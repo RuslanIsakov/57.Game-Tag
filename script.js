@@ -143,3 +143,7 @@ if(row > 0){adjacent.push(getCell(row-1, col));}
 	 *
 	 */
 	function checkOrder(){
+// Checks if the empty cell is in correct position
+		if(getCell(3, 3).className != 'empty'){
+			return;
+	
