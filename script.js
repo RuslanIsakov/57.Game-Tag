@@ -152,3 +152,7 @@ if(row > 0){adjacent.push(getCell(row-1, col));}
 		var n = 1;
 		// Goes through all cells and checks numbers
 		for(var i = 0; i <= 3; i++){
+for(var j = 0; j <= 3; j++){
+				if(n <= 15 && getCell(i, j).innerHTML != n.toString()){
+					// Order is not correct
+					return;
