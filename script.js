@@ -191,3 +191,11 @@ var adjacent = getAdjacentCells(getEmptyCell());
 						}
 					}
 				}
+// Gets random adjacent cell and memorizes it for the next iteration
+				previousCell = adjacent[rand(0, adjacent.length-1)];
+				shiftCell(previousCell);
+				i++;
+			} else {
+				clearInterval(interval);
+				state = 1;
+			}
