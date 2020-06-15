@@ -180,3 +180,6 @@ puzzle.removeAttribute('class');
 		state = 0;
 		
 		var previousCell;
+var i = 1;
+		var interval = setInterval(function(){
+			if(i <= 100){
