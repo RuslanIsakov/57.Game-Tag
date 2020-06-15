@@ -183,3 +183,11 @@ puzzle.removeAttribute('class');
 var i = 1;
 		var interval = setInterval(function(){
 			if(i <= 100){
+var adjacent = getAdjacentCells(getEmptyCell());
+				if(previousCell){
+					for(var j = adjacent.length-1; j >= 0; j--){
+						if(adjacent[j].innerHTML == previousCell.innerHTML){
+							adjacent.splice(j, 1);
+						}
+					}
+				}
