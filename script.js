@@ -199,3 +199,11 @@ var adjacent = getAdjacentCells(getEmptyCell());
 				clearInterval(interval);
 				state = 1;
 			}
+}, 5);
+
+	}
+	
+	/**
+	 * Generates random number
+	 *
+	 */
