@@ -176,3 +176,7 @@ function scramble(){
 			return;
 		}
 		
+puzzle.removeAttribute('class');
+		state = 0;
+		
+		var previousCell;
