@@ -170,3 +170,9 @@ for(var j = 0; j <= 3; j++){
 	 * Scrambles puzzle
 	 *
 	 */
+function scramble(){
+	
+		if(state == 0){
+			return;
+		}
+		
